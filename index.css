@@ -1,10 +1,56 @@
-section {
+.sec {
     display: flex;
+    padding-bottom: 150px;
+}
+
+.o {
+    border-left: 5px solid blue;
+}
+
+.v {
+    border-left: 5px solid tomato;
 }
 
 .bg {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.cici {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+.inliner {
+    box-shadow: 20px 10px 40px black;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.back {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.reaume {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .inline {
